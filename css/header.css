@@ -1,0 +1,26 @@
+@import url(main.css);
+
+header {
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    background-color: lightblue;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header div img {
+    height: 4rem;
+    width: auto;
+}
+
+header div h1 {
+    font-size: 2rem;
+}

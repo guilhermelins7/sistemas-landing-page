@@ -1,0 +1,27 @@
+@import url(main.css);
+
+.home {
+    display: flex;
+    position: relative;
+    background-image: url(../img/home-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 4rem;
+    height: 7rem;
+    width: 100%;
+    left: 0;
+}
+
+.home .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.home h1, p {
+    color: #fff;
+}

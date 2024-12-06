@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* retirar sublinhado de links */
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    /* deslize suave da tela */
+    scroll-behavior: smooth;
+}

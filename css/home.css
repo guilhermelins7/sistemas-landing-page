@@ -2,13 +2,13 @@
 
 .home {
     display: flex;
+    
     position: relative;
     background-image: url(../img/home-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    top: 4rem;
-    height: 7rem;
+    height: 10rem;
     width: 100%;
     left: 0;
 }
@@ -22,6 +22,6 @@
 }
   
 
-.home h1, p {
+.home h1 {
     color: #fff;
 }

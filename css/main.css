@@ -11,3 +11,21 @@
     /* deslize suave da tela */
     scroll-behavior: smooth;
 }
+
+body {
+    background-color: #226a7c;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    font-size: 2rem;
+    color: #909090;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    margin: 2rem 3rem;
+}

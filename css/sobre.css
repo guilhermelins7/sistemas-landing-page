@@ -1,0 +1,29 @@
+@import url(main.css);
+
+.sobre {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1rem;
+    width: 65%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.sobre img {
+    width: 50%;
+    height: auto;
+}
+
+.sobre .conteudo {
+    width: 60%;
+}
+
+.sobre .conteudo h2 {
+    margin-bottom: 0.3rem;
+}
+
+.sobre .conteudo p {
+    font-size: 1rem;
+    line-height: 1.5;
+}

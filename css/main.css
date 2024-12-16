@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .icons {
@@ -28,4 +28,17 @@ body {
     height: 2rem;
     width: 2rem;
     margin: 2rem 3rem;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 1.2rem;
+}
+
+.informacoes p {
+    color: #ababab;
+    font-weight: bold;
+    font-size: 1.2rem;
 }

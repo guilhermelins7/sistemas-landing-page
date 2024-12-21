@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/infraestrutura.css">
+    <link rel="stylesheet" href="css/grade.css">
     <script src="https://kit.fontawesome.com/a7620d8d1a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -61,5 +62,29 @@
         </div>
         <a href="">Quero Fazer Sistemas de Informação</a>
     </section>
+    <section class="grade">
+        <div class="semestre">
+            <h2 class="titulo" onclick="toggleList(this); toggleIcon('toggle1')">1. Primeiro Semestre <span id="toggle1">+</span></h2>
+            <ul class="conteudo">
+                <li>Desenvolvimento de Algoritmos</li>
+                <li>Fundamentos de Linguagem de Programação</li>
+                <li>Teoria Geral de Sistemas</li>
+                <li>Desenvolvimento de Jogos</li>
+                <li>Qualidade de Vida</li>
+            </ul>
+        </div>
+        <div class="semestre">
+            <h2 class="titulo" onclick="toggleList(this); toggleIcon('toggle2')">2. Segundo Semestre <span id="toggle2">+</span></h2>
+            <ul class="conteudo">
+                <li>Fundamentos de Sistemas de Informação</li>
+                <li>Arquitetura de Computadores</li>
+                <li>Programação Orientada a Objetos</li>
+                <li>Fundamentos de Desenvolvimento Web</li>
+                <li>Tecnologia e Inovação</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>

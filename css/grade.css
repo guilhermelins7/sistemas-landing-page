@@ -1,0 +1,41 @@
+@import url(main.css);
+
+.grade {
+    max-width: 25%;
+    margin: auto;
+}
+
+.semestre {
+    border: .1rem solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    /* background-color: #f4f4f4; */
+    padding: .5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.titulo:hover {
+    background-color: #eaeaea;
+}
+
+.conteudo {
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    display: none; /* Esconde por padrão */
+}
+
+.conteudo li {
+    padding: .3rem 0;
+    border-bottom: .1rem solid #eee;
+}
+
+.conteudo li:last-child {
+    border-bottom: none;
+}

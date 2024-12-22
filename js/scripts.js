@@ -9,7 +9,7 @@ function toggleList(element) {
         content.style.display = 'block';
     else content.style.display = 'none';
 }
-
+ 
 function toggleIcon(id) {
     const toggle = document.getElementById(id);
 

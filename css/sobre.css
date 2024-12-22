@@ -15,15 +15,15 @@
     height: auto;
 }
 
-.sobre .conteudo {
+.sobre div {
     width: 60%;
 }
 
-.sobre .conteudo h2 {
+.sobre div h2 {
     margin-bottom: 0.3rem;
 }
 
-.sobre .conteudo p {
+.sobre div p {
     font-size: 1rem;
     line-height: 1.5;
 }

@@ -10,17 +10,28 @@ header {
     justify-content: center;
 }
 
-header div {
+header {
     display: flex;
     gap: 2rem;
+    justify-content: space-around;
     align-items: center;
 }
 
-header div img {
+header .santaHeader {
     height: 4rem;
     width: auto;
 }
 
-header div h1 {
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icons i {
     font-size: 2rem;
+    color: #909090;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
 }

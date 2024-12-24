@@ -24,20 +24,6 @@ body {
     font-family: "PT Serif", serif;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-}
-
-.icons i {
-    font-size: 2rem;
-    color: #909090;
-    cursor: pointer;
-    height: 2rem;
-    width: 2rem;
-    margin: 2rem 3rem;
-}
-
 .informacoes {
     display: flex;
     justify-content: center;

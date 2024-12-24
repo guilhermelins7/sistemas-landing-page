@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --main-color: #fff;
+    --text-color: #777;
+    --style-color: #0D47A1;
+}
 
 * {
     margin: 0;
@@ -20,19 +25,21 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--main-color);
     font-family: "PT Serif", serif;
 }
 
 .informacoes {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
+    gap: 3rem;
     margin: 1.2rem;
 }
 
 .informacoes p {
-    color: #ababab;
+    color: var(--text-color);
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }

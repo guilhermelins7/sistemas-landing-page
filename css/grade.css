@@ -23,11 +23,10 @@
 
 .semestre {
     flex: 1 1 calc(50% - 10%);
-    border: .1rem solid #ddd;
+    border: .1rem solid var(--text-color);
 }
 
 .titulo {
-    /* background-color: #f4f4f4; */
     padding: .5rem 1rem;
     cursor: pointer;
     display: flex;
@@ -49,7 +48,7 @@
 
 .conteudo li {
     padding: .3rem 0;
-    border-bottom: .1rem solid #eee;
+    border-bottom: .1rem solid var(--text-color);
 }
 
 .conteudo li:last-child {

@@ -30,7 +30,7 @@ header .santaHeader {
 
 .icons i {
     font-size: 2rem;
-    color: #909090;
+    color: var(--text-color);
     cursor: pointer;
     height: 2rem;
     width: 2rem;

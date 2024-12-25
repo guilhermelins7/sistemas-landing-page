@@ -1,16 +1,31 @@
 @import url(main.css);
 
-.informacoes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin: 1.2rem;
+/* Mobile */
+@media(min-width: 0px) {
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 0.3rem;
+    }
+    
+    .informacoes p {
+        color: var(--text-color);
+        font-weight: bold;
+        font-size: .7rem;
+    }
 }
 
-.informacoes p {
-    color: var(--text-color);
-    font-weight: bold;
-    font-size: 1.1rem;
+
+/* Tablet */
+@media(min-width: 481px) {
+    .informacoes {
+        margin: 0.5rem;
+    }
+
+    .informacoes p {
+        font-size: 0.75rem;
+    }
 }

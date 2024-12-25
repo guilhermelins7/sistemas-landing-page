@@ -1,30 +1,37 @@
 @import url(main.css);
 
-.sobre {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    padding: 1rem;
-    width: 60%;
-    margin: 1rem auto;
-    gap: 1rem;
+/* Mobile */
+@media(min-width: 0px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        max-width: 95%;
+        margin: 1rem auto;
+        gap: 1rem;
+    }
+    
+    .sobre img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .sobre div {
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+    
+    .sobre div h2 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .sobre div p {
+        font-size: .9rem;
+        color: var(--text-color);
+    }
 }
 
-.sobre img {
-    width: 50%;
-    height: auto;
-}
-
-.sobre div {
-    width: 60%;
-}
-
-.sobre div h2 {
-    font-size: 1.7rem;
-    margin-bottom: 0.3rem;
-}
-
-.sobre div p {
-    font-size: 1.1rem;
-    color: var(--text-color);
-}

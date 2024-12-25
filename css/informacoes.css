@@ -1,0 +1,16 @@
+@import url(main.css);
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 1.2rem;
+}
+
+.informacoes p {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}

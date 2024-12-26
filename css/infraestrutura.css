@@ -6,17 +6,26 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 1rem;
-        max-width: 90%;
-        margin: 1rem auto;
-        gap: 1rem;
+        max-width: 100%;
+        background-color: var(--style-color);
+        color: var(--main-color);
     }
     
+    .infraestrutura .infra-container {
+        display: inherit;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem auto;
+        gap: 1rem;
+        padding: 1rem;
+        max-width: 95%;
+    }
+
     .infraestrutura h2 {
         font-size: 1.1rem;
     }
     
-    .infraestrutura div {
+    .infraestrutura .infra-conteudo {
         display: inherit;
         flex-direction: column;
         justify-content: space-between;
@@ -25,14 +34,13 @@
     
     .infraestrutura div p {
         font-size: .9rem;
-        color: var(--text-color);
     }
     
     .infraestrutura div iframe {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 20rem;
+        width: 21rem;
         height: auto;
         padding: 2rem;
     }

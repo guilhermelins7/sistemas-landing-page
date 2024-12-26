@@ -1,52 +1,53 @@
 @import url(main.css);
 
-.infraestrutura {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    width: 60%;
-    margin: 1rem auto;
-    gap: 1rem;
-}
-
-.infraestrutura h2 {
-    font-size: 1.7rem;
-    margin-bottom: 0.3rem;
-}
-
-.infraestrutura div {
-    display: inherit;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.infraestrutura div p {
-    font-size: 1.1rem;
-    color: #777;
-    width: 40%;
-}
-
-.infraestrutura div iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25rem;
-    height: 13rem;
-}
-
-.infraestrutura a {
-    background-color: #b20000;
-    line-height: 30px;
-    color: var(--main-color);
-    padding: 7px;
-    border-radius: 14px;
-    text-align: center;
-    font-size: 20px;
-    justify-content: center;
-    font-weight: 600;
-    padding: .8rem 1rem;
-    width: 50%;
-    align-self: center;
+/* Mobile */
+@media(min-width: 0px) {
+    .infraestrutura {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        max-width: 90%;
+        margin: 1rem auto;
+        gap: 1rem;
+    }
+    
+    .infraestrutura h2 {
+        font-size: 1.1rem;
+    }
+    
+    .infraestrutura div {
+        display: inherit;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .infraestrutura div p {
+        font-size: .9rem;
+        color: var(--text-color);
+    }
+    
+    .infraestrutura div iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: auto;
+        padding: 2rem;
+    }
+    
+    .infraestrutura a {
+        background-color: #b20000;
+        line-height: 30px;
+        color: var(--main-color);
+        border-radius: 14px;
+        text-align: center;
+        font-size: .9rem;
+        justify-content: center;
+        font-weight: 600;
+        padding: .8rem .6rem;
+        width: 85%;
+        align-self: center;
+    }
 }

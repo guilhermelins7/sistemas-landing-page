@@ -1,56 +1,63 @@
 @import url(main.css);
 
-.grade {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 60%;
-    margin: auto;
-}
-
-.grade .sectionTitle {
-    align-self: flex-start;
-    margin: 1rem 0rem;
-}
-
-.grade .disciplinas {
-    display: flex;
-    flex-wrap: wrap; /* test */
-    margin: 1rem 0rem;
-    gap: 1rem;
-}
-
-.semestre {
-    flex: 1 1 calc(50% - 10%);
-    border: .1rem solid var(--text-color);
-}
-
-.titulo {
-    padding: .5rem 1rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-}
-
-.titulo:hover {
-    background-color: #eaeaea;
-}
-
-.conteudo {
-    list-style-type: none;
-    padding: 0.5rem 1rem;
-    margin: 0;
-    display: none; /* Esconde por padrão */
-}
-
-.conteudo li {
-    padding: .3rem 0;
-    border-bottom: .1rem solid var(--text-color);
-}
-
-.conteudo li:last-child {
-    border-bottom: none;
+/* Mobile */
+@media(min-width: 0px) {
+    .grade {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        margin: auto;
+    }
+    
+    .grade .sectionTitle {
+        font-size: 1.2rem;
+        align-self: flex-start;
+        margin: 1rem 0rem;
+    }
+    
+    .grade .disciplinas {
+        display: flex;
+        flex-wrap: wrap; /* test */
+        margin: 1rem 0rem;
+        gap: 1rem;
+    }
+    
+    .semestre {
+        /* flex: 1 1 calc(50% - 10%); */
+        border: .1rem solid var(--text-color);
+        width: 100%;
+    }
+    
+    .titulo {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .titulo:hover {
+        background-color: #eaeaea;
+    }
+    
+    .conteudo {
+        font-size: .8rem;
+        list-style-type: none;
+        padding: 0.5rem 1rem;
+        margin: 0;
+        display: none; /* Esconde por padrão */
+    }
+    
+    .conteudo li {
+        padding: .3rem 0;
+        border-bottom: .1rem solid var(--text-color);
+    }
+    
+    .conteudo li:last-child {
+        border-bottom: none;
+    }
 }

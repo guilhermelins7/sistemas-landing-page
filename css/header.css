@@ -20,47 +20,37 @@
         width: auto;
     }
 
-    .icons i {
-        font-size: 1.4rem;
-        color: var(--text-color);
-        cursor: pointer;
-        height: auto;
-        width: 1rem;
-    }
-
     .icons {
         display: flex;
         justify-content: center;
         gap: 1.5rem;
     }
+
+    .icons i {
+        color: var(--text-color);
+        cursor: pointer;
+        height: auto;
+        width: 1rem;
+        font-size: 1.4rem;
+    }
 }
 
 /* Tablet */
 @media(min-width: 481px) {
-    .icons {
-        gap: 1.5rem;
+    header {
+        justify-content: space-around;
+        min-height: 9vh;
+    }
+
+    header .icons {
+        gap: 2.5rem;
     }
 
     header .santaHeader {
-        height: 2.5rem;
+        height: 3rem;
+    }
+
+    .icons i {
+        font-size: 1.7rem;
     }
 }
-
-/* header .santaHeader {
-    height: 4rem;
-    width: auto;
-} */
-
-/* .icons {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-} */
-
-/* .icons i {
-    font-size: 2rem;
-    color: var(--text-color);
-    cursor: pointer;
-    height: 2rem;
-    width: 2rem;
-} */

@@ -22,10 +22,11 @@
 /* Tablet */
 @media(min-width: 481px) {
     .informacoes {
-        margin: 0.5rem;
+        margin: 1rem;
+        gap: 3rem;
     }
 
     .informacoes p {
-        font-size: 0.75rem;
+        font-size: 1.1rem;
     }
 }

@@ -65,3 +65,31 @@
         /* object-fit: contain; */
     }
 }
+
+/* Tablet */
+@media(min-width: 481px) {
+    .rodape .contato p {
+        font-size: 1.1rem;
+    }
+    
+    .rodape .qrCode {
+        width: 20%;
+        height: auto;
+    }
+
+    .rodape .mec {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 95%;
+    }
+
+    .rodape .mec .consulte h3 {
+        font-size: 1.1rem;
+    }
+
+    .rodape .mec .consulte {
+        gap: .8rem;
+    }
+}

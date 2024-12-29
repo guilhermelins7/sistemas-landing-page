@@ -7,20 +7,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 90%;
+        max-width: 85%;
         margin: auto;
     }
     
     .grade .sectionTitle {
         font-size: 1.2rem;
         align-self: flex-start;
-        margin: 1rem 0rem;
+        margin-top: 1rem;
     }
     
     .grade .disciplinas {
         display: flex;
         flex-wrap: wrap; /* test */
-        margin: 1rem 0rem;
+        margin: 2rem 0rem;
         gap: 1rem;
     }
     
@@ -30,7 +30,7 @@
         width: 100%;
     }
     
-    .titulo {
+    .grade .disciplinas .semestre .titulo {
         font-size: 1rem;
         padding: .5rem 1rem;
         cursor: pointer;
@@ -40,11 +40,11 @@
         font-weight: bold;
     }
     
-    .titulo:hover {
+    .grade .disciplinas .semestre .titulo:hover {
         background-color: #eaeaea;
     }
     
-    .conteudo {
+    .grade .disciplinas .semestre .conteudo {
         font-size: .8rem;
         list-style-type: none;
         padding: 0.5rem 1rem;
@@ -52,12 +52,28 @@
         display: none; /* Esconde por padrão */
     }
     
-    .conteudo li {
+    .grade .disciplinas .semestre .conteudo li {
         padding: .3rem 0;
         border-bottom: .1rem solid var(--text-color);
     }
     
-    .conteudo li:last-child {
+    .grade .disciplinas .semestre .conteudo li:last-child {
         border-bottom: none;
+    }
+}
+
+/* Tablet */
+@media(min-width: 481px) {
+    .grade .sectionTitle {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+
+    .grade .disciplinas .semestre .titulo {
+        font-size: 1.4rem;
+    }
+
+    .grade .disciplinas .semestre .conteudo {
+        font-size: 1.2rem;
     }
 }

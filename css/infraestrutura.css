@@ -87,3 +87,25 @@
         height: 4rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    .infraestrutura h2 {
+        font-size: 2rem;
+    }
+
+    .infraestrutura div p {
+        font-size: 1.3rem;
+    }
+
+    .infraestrutura div iframe {
+        width: 40rem;
+        height: 24rem;
+    }
+
+    .infraestrutura a {
+        line-height: 35px;
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+}

@@ -29,7 +29,6 @@
     }
     
     .sobre h2 {
-        align-self: flex-start;
         font-size: .96rem;
     }
     
@@ -74,7 +73,7 @@
     
     .sobre p {
         /* editar */
-        font-size: 1.2rem; 
+        font-size: 1.3rem; 
     }
 }
 

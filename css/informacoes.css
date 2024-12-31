@@ -30,3 +30,15 @@
         font-size: 1.1rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    .informacoes {
+        margin: 1rem;
+        gap: 1.6rem;
+    }
+
+    .informacoes p {
+        font-size: 1.3rem;
+    }
+}

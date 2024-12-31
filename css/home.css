@@ -40,3 +40,14 @@
         font-size: 2rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    .home {
+        height: 10rem;
+    }
+    
+    .home h1 {
+        font-size: 3rem;
+    }
+}

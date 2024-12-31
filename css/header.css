@@ -54,3 +54,23 @@
         font-size: 1.7rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    header {
+        justify-content: space-around;
+        min-height: 10vh;
+    }
+
+    header .icons {
+        gap: 3rem;
+    }
+
+    header .santaHeader {
+        height: 4rem;
+    }
+
+    .icons i {
+        font-size: 2rem;
+    }
+}

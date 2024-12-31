@@ -77,3 +77,22 @@
         font-size: 1.2rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    .semestre {
+        flex: 1 1 calc(50% - 10%);
+    }
+
+    .grade .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .grade .disciplinas .semestre .titulo {
+        font-size: 1.6rem;
+    }
+
+    .grade .disciplinas .semestre .conteudo {
+        font-size: 1.4rem;
+    }
+}

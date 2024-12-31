@@ -93,3 +93,22 @@
         gap: .8rem;
     }
 }
+
+/* Laptop */
+@media(min-width: 771px) {
+    .rodape .contato .logoSanta {
+        width: 22%;
+    }
+
+    .rodape .contato p {
+        font-size: 1.4rem;
+    }
+    
+    .rodape .qrCode {
+        width: 22%;
+    }
+
+    .rodape .mec .consulte h3 {
+        font-size: 1.4rem;
+    }
+}

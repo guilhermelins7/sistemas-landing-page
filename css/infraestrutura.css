@@ -143,5 +143,11 @@
 
 /* Ultrawide */
 @media(min-width: 1525px) {
+    .infraestrutura .infra-container {
+        max-width: 55%;
+    }
 
+    .infraestrutura div iframe {
+        height: 25rem;
+    }
 }

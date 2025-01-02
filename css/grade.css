@@ -109,3 +109,10 @@
         margin: 3rem auto;
     }
 }
+
+/* Ultrawide */
+@media(min-width: 1525px) {
+    .grade {
+        max-width: 55%;
+    }
+}

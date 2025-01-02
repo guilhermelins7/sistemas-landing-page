@@ -9,12 +9,12 @@
         align-items: center;
         max-width: 85%;
         margin: auto;
+        margin: 1.5rem auto;
     }
     
     .grade .sectionTitle {
         font-size: 1.2rem;
         align-self: flex-start;
-        margin-top: 1rem;
     }
     
     .grade .disciplinas {
@@ -84,8 +84,13 @@
         flex: 1 1 calc(50% - 10%);
     }
 
+    .grade {
+        margin: 2rem auto;
+    }
+
     .grade .sectionTitle {
         font-size: 1.8rem;
+        margin: 1rem 0rem;
     }
 
     .grade .disciplinas .semestre .titulo {
@@ -101,5 +106,6 @@
 @media(min-width: 1025px) {
     .grade {
         max-width: 75%;
+        margin: 3rem auto;
     }
 }

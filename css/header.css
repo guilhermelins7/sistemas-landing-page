@@ -101,7 +101,7 @@
 }
 
 /* Ultrawide */
-@media(min-width: 1281px) {
+@media(min-width: 1525px) {
     header {
         background-color: #5e48ed;
     }

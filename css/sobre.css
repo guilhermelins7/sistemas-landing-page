@@ -54,11 +54,14 @@
 @media(min-width: 771px) {
     .sobre {
         flex-direction: column;
+        margin: 1.5rem auto;
+        gap: .8rem;
     }
 
     .sobre div {
         display: flex;
         flex-direction: row;
+        margin: 1rem 0rem;
         gap: 1rem;
     }
 
@@ -85,6 +88,23 @@
 
     .sobre div {
         gap: 2rem;
+        margin: 2rem 0rem;
     }
 }
 
+/* Ultrawide */
+@media(min-width: 1525px) {
+    .sobre {
+        width: 55%;
+    }
+
+    .sobre h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .sobre p {
+        /* editar */
+        font-size: 1.6rem; 
+    }
+}

@@ -109,3 +109,19 @@
         height: 4rem;
     }
 }
+
+/* Desktop */
+@media(min-width: 1025px) {
+    .infraestrutura .infra-container {
+        max-width: 80%;
+    }
+
+    .infraestrutura .infra-conteudo {
+        flex-direction: row;
+    }
+
+    .infraestrutura div iframe {
+        width: 125rem;
+        height: 20rem;
+    }
+}

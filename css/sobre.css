@@ -73,7 +73,18 @@
     
     .sobre p {
         /* editar */
-        font-size: 1.3rem; 
+        font-size: 1.4rem; 
+    }
+}
+
+/* Desktop */
+@media(min-width: 1025px) {
+    .sobre {
+        width: 80%;
+    }
+
+    .sobre div {
+        gap: 2rem;
     }
 }
 

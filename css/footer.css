@@ -112,3 +112,44 @@
         font-size: 1.4rem;
     }
 }
+
+/* Desktop */
+@media(min-width: 1025px) {
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .rodape .contato {
+        max-width: 45%;
+        gap: 0rem;
+    }
+
+    .rodape .contato .logoSanta {
+        width: 20%;
+    }
+
+    .rodape .contato p {
+        font-size: 1.2rem;
+    }
+    
+    .rodape .qrCode {
+        width: 20%;
+    }
+
+    .rodape .mec {
+        gap: 0rem;
+        max-width: 45%;
+    }
+
+    .rodape .mec .consulte h3 {
+        font-size: 1.2rem;
+    }
+
+    .rodape .mec .emec {
+        width: 30%;
+        margin-bottom: 0rem;
+    }
+}

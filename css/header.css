@@ -74,3 +74,35 @@
         font-size: 2rem;
     }
 }
+
+/* Desktop */
+@media(min-width: 1025px) {
+    header {
+        /* TEST */
+        background-color: #aaa;
+    }
+
+    header {
+        justify-content: space-around;
+        min-height: 12vh;
+    }
+
+    header .icons {
+        gap: 3.5rem;
+    }
+
+    header .santaHeader {
+        height: 4.5rem;
+    }
+
+    .icons i {
+        font-size: 2.5rem;
+    }
+}
+
+/* Ultrawide */
+@media(min-width: 1281px) {
+    header {
+        background-color: #5e48ed;
+    }
+}

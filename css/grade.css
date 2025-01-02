@@ -96,3 +96,10 @@
         font-size: 1.4rem;
     }
 }
+
+/* Desktop */
+@media(min-width: 1025px) {
+    .grade {
+        max-width: 75%;
+    }
+}

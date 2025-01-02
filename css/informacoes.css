@@ -42,3 +42,15 @@
         font-size: 1.3rem;
     }
 }
+
+/* Desktop */
+@media(min-width: 1025px) {
+    .informacoes {
+        margin: 1rem;
+        gap: 2rem;
+    }
+
+    .informacoes p {
+        font-size: 1.5rem;
+    }
+}

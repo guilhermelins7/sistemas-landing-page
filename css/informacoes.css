@@ -5,16 +5,20 @@
     .informacoes {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        gap: 1rem;
         margin-top: .8rem;
+    }
+
+    .informacoes div {
+        display: flex;
+        flex-direction: column;
     }
     
     .informacoes p {
         color: var(--text-color);
         font-weight: bold;
-        font-size: .7rem;
+        font-size: .75rem;
     }
 }
 
@@ -24,6 +28,11 @@
     .informacoes {
         margin: 1rem;
         gap: 3rem;
+    }
+
+    .informacoes div {
+        flex-direction: row;
+        gap: .3rem;
     }
 
     .informacoes p {
@@ -38,6 +47,10 @@
         gap: 1.6rem;
     }
 
+    .informacoes div {
+        gap: .4rem;
+    }
+
     .informacoes p {
         font-size: 1.3rem;
     }
@@ -48,6 +61,10 @@
     .informacoes {
         margin: 1.5rem auto;
         gap: 2rem;
+    }
+
+    .informacoes div {
+        gap: .5rem;
     }
 
     .informacoes p {
